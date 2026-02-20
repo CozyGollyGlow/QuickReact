@@ -2,7 +2,7 @@ import os
 import json
 
 # Folder containing your images
-IMAGES_FOLDER = "images/"
+IMAGES_FOLDER = "images"
 
 # Output JSON file
 OUTPUT_FILE = os.path.join(IMAGES_FOLDER, "images.json")
