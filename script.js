@@ -1,7 +1,7 @@
 addImages();
 
 function addImages(){
-	const container = document.querySelector(".gif-grid");
+	const container = document.querySelector(".img-grid");
 
 	fetch("images/images.json")
 	.then(res => res.json())
