@@ -10,7 +10,7 @@ body {
     font-family: sans-serif;
 }
 
-.gif-grid {
+.img-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -23,7 +23,7 @@ body {
     border-radius: 10px;
 }
 
-.gif-grid img {
+.img-container img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
