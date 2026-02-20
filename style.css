@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.gif-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 70%;
+}
+
+.img-container {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.gif-grid img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
