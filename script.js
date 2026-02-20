@@ -1,6 +1,6 @@
 addImages();
 
-function addImages(){
+async function addImages(){
 	const grid = document.querySelector(".img-grid");
 
 	fetch("images/images.json")
