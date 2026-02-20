@@ -13,7 +13,7 @@ async function addImages(){
 			const img = document.createElement("img");
 			img.src = src;
 
-			img.addEventListener("click", (e) => {
+			img.addEventListener("click", async (e) => {
 				if (e.target.tagName === "IMG") {
 			    	try {
 						await navigator.clipboard.writeText(e.target.src);
