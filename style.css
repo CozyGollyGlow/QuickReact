@@ -20,6 +20,10 @@ body {
 .img-container {
     background-color: white;
     padding: 5px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
     border-radius: 10px;
 }
 
